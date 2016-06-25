@@ -6,6 +6,11 @@ body{
 	color: #464141;
 	font-family: "Times New Roman",Georgia,Serif;
 }
+@font-face{
+	font-family: 'f2u';
+	src:url('../fonts/F2U_Scratch.ttf');
+
+}
 img,button,a{
 	border:none;
 }
@@ -43,7 +48,11 @@ a{
 	height:280px;
 	border-radius: 50%;
 	padding:20px 0;
-}/*header end*/
+}
+.wraper .header h1{
+	font-family:'f2u';
+}
+/*header end*/
 
 .content{
 	width:100%;
@@ -63,6 +72,10 @@ a{
 }
 .left,.right{
 	padding:10px;
+	opacity: 0.8;
+}
+.left:hover,.right:hover{
+	opacity: 1;
 }
 .left{
 	background:#67885c;
