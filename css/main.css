@@ -75,6 +75,7 @@ a{
 	opacity: 0.8;
 }
 .left:hover,.right:hover{
+	border: 1px solid #000;
 	opacity: 1;
 }
 .left{
@@ -157,10 +158,10 @@ table div>span {
 	width:80%;
 }
 .jQuery>span{
-	width:65%;
+	width:75%;
 }
 .Bootstrap>span{
-	width:30%;
+	width:65%;
 }
 .PhotoShop>span{
 	width:20%;
