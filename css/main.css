@@ -34,13 +34,11 @@ a{
 	margin:0 auto;
 	width:900px;
 	height:auto;
-	// border:1px solid blue;
 }
 .wraper .header{
 	width:100%;
 	height:390px;
 	text-align: center;
-	// border:1px solid pink;
 }
 .wraper .header img{
 	border:none;
@@ -56,13 +54,12 @@ a{
 
 .content{
 	width:100%;
-	height:;
+	height:auto;
 	padding:5px 0;
 	color:#000;
 	font-family: '幼圆';
 	font-size: 16px;
 	text-shadow: 2px 2px 2px #6b6a6a;
-	// border:1px solid green;
 }
 .content h2{
 	margin-bottom:10px;
@@ -75,7 +72,7 @@ a{
 	opacity: 0.8;
 }
 .left:hover,.right:hover{
-	border: 1px solid #000;
+	// border: 1px solid #000;
 	opacity: 1;
 }
 .left{
@@ -90,10 +87,12 @@ a{
 .content-rl-6035 .left,.content-rl-6035 .right{
 	height:275px;
 }
+.content-lr-5540 .left,.content-lr-5540 .right{
+	height: 130px;
+}
 .content-lr-4550 .left{
 	float:left;
 	width:45%;
-	
 }
 .content-lr-4550 .right{
 	float:right;
@@ -120,7 +119,6 @@ a{
 	width:300px;
 	height:25px;
 	line-height: 25px;
-	// border:1px solid blue;
 }
 .content ul li a{
 	color:#000;
@@ -165,6 +163,22 @@ table div>span {
 }
 .PhotoShop>span{
 	width:20%;
+}
+p.evaluation{
+	line-height: 25px;
+	text-indent: 30px;
+}
+.link-project{
+	display:block;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-size: 35px;
+	font-weight: bolder;
+}
+.link-project:hover{
+	text-decoration: underline;
 }
 /*content end*/
 

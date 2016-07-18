@@ -2,8 +2,10 @@
 	padding: 0;
 	margin: 0;
 }
-body{
-	background: #339278;
+body,html{
+	width:100%;
+	height: 100%;
+	background: radial-gradient(farthest-corner ellipse, #d4e0c3, #a6d1b3 50%, #8cb252);
 }
 a,ul,button,img{
 	border: none;
@@ -44,7 +46,7 @@ li{
 	display: inline-block;
 	position: relative;
 	margin-top:8px;
-	border:3px solid #D1CDC6;
+	border:3px solid #c7d8ff;
 }
 .image-box{
 	width:100%;
@@ -68,7 +70,7 @@ li{
 }
 li:hover .image-box{
 	transform:translate(-50%,6px) scale(0.5);
-	background: #D1CDC6;
+	background: #c7d8ff;
 	position: relative;
 	z-index:3;
 }
@@ -136,14 +138,12 @@ ul li:nth-of-type(3) .item-box,ul li:nth-of-type(6) .item-box{
 /*top to bottom,bottom to top*/
 li:nth-of-type(2):hover .image-box{
 	transform:translate(-50%,45px) scale(0.5);
-	background: #D1CDC6;
 }
 li:nth-of-type(2):hover .item-box{
 	transform: translateY(100%);
 }
 li:nth-of-type(5):hover .image-box{
 	transform:translate(50%,45px) scale(0.5);
-	background: #D1CDC6;
 }
 li:nth-of-type(5):hover .item-box{
 	transform: translateY(-100%);
@@ -152,7 +152,6 @@ li:nth-of-type(5):hover .item-box{
 /*left to right*/
 li:nth-of-type(3):hover .image-box,li:nth-of-type(6):hover .image-box{
 	transform:translate(50%,6px) scale(0.5);
-	background: #D1CDC6;
 }
 li:nth-of-type(3):hover .item-box,li:nth-of-type(6):hover .item-box{
 	transform: translateX(100%);
